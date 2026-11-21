@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible problem with blueBerryOS Boreale.
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: blueBerryOS version
+      description: Include the version and build date or package version if known.
+      placeholder: "Example: 1.0 Boreale"
+    validations:
+      required: true
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - AMD64 ISO (live session)
+        - AMD64 ISO (installed)
+        - VirtualBox OVA
+        - Raspberry Pi ARM64
+        - Other / unsure
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Hardware or virtual machine
+      description: Include the device model, CPU and RAM where relevant. For a VM, include the host OS, hypervisor version and VM settings.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Select …
+        3. Observe …
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: Describe what you expected and what happened, including any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Paste only the relevant excerpt. Remove passwords, tokens, email addresses and other personal information before posting.
+      render: text
+    validations:
+      required: false
