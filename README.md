@@ -34,6 +34,6 @@ For VirtualBox or Raspberry Pi, use the matching checksum file on the download p
 
 ### Support
 
-[Report a bug on GitHub](https://github.com/iervadev/blueberryOS-boreale/issues). Include your edition, hardware or hypervisor, the steps that reproduce the issue, and any relevant logs with personal information removed.
+[Report a bug on GitHub](https://github.com/iervadev/blueberryOS-boreale/issues/new?template=bug-report.yml). Include your edition, hardware or hypervisor, the steps that reproduce the issue, and any relevant logs with personal information removed.
 
 [Release notes](https://blueberrylinux.com/en/boreale/) · [Project website](https://blueberrylinux.com/en/) · [Debian Derivatives Census](https://wiki.debian.org/Derivatives/Census/blueBerryOS)
