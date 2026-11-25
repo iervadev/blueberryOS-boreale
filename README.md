@@ -32,6 +32,10 @@ For VirtualBox or Raspberry Pi, use the matching checksum file on the download p
 
 [Installation instructions](https://blueberrylinux.com/en/get-bluberry/#avvio) · [Installation FAQ](https://blueberrylinux.com/en/faq/)
 
+## Licensing
+
+The original blueBerryOS Boreale source code is licensed under Apache License 2.0. Debian packages and other third-party components retain their own licenses. See the [full license text](LICENSE) and the [licensing overview](LICENSING.md) for scope and component notices.
+
 ### Support
 
 [Report a bug on GitHub](https://github.com/iervadev/blueberryOS-boreale/issues/new?template=bug-report.yml). Include your edition, hardware or hypervisor, the steps that reproduce the issue, and any relevant logs with personal information removed.
